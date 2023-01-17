@@ -121,7 +121,6 @@
     "css-blank-pseudo": "^3.0.3",
     "css-declaration-sorter": "^6.3.1",
     "css-has-pseudo": "^3.0.4",
-    "css-loader": "^6.7.2",
     "css-minimizer-webpack-plugin": "^3.4.1",
     "css-prefers-color-scheme": "^6.0.3",
     "css-select": "^4.3.0",
@@ -683,7 +682,6 @@
     "strip-final-newline": "^2.0.0",
     "strip-indent": "^3.0.0",
     "strip-json-comments": "^3.1.1",
-    "style-loader": "^3.3.1",
     "stylehacks": "^5.1.1",
     "supports-color": "^5.5.0",
     "supports-hyperlinks": "^2.3.0",
@@ -745,7 +743,6 @@
     "wbuf": "^1.7.3",
     "web-vitals": "^2.1.4",
     "webidl-conversions": "^6.1.0",
-    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^5.3.3",
     "webpack-dev-server": "^4.11.1",
     "webpack-manifest-plugin": "^4.1.1",
@@ -797,7 +794,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "react-css-modules": "^4.7.11"
+    "css-loader": "^6.7.3",
+    "react-css-modules": "^4.7.11",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
