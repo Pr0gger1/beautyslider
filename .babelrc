@@ -8,5 +8,10 @@
    ],
       "react",
       "stage-0"
-    ]
+    ],
+  "plugins": [
+    ["react-css-modules", {
+      "option": "value"
+    }]
+  ]
 }
