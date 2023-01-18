@@ -1,7 +1,7 @@
 {
-  "name": "react-slider",
+  "name": "beautyslider",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Simple slider component",
   "author": "Pr0gger1",
   "license": "MIT",
   "repository": "Pr0gger1/react-slider",
@@ -22,9 +22,6 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
-  },
-  "peerDependencies": {
-    "react": "^16.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

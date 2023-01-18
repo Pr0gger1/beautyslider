@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import style from './slider.module.css';
-// import styles from './styles.module.css'
 
-// export const ExampleComponent = ({ text }) => {
-//   return <div className={styles.test}>Example Component: {text}</div>
-// }
 export const Slider = ({
   checked = false,
   toggleState,
