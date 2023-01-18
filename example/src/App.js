@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-slider'
+import {Slider}  from 'react-slider'
 import 'react-slider/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Slider/>
 }
 
 export default App
