@@ -1,12 +1,20 @@
 {
-  "version": "1.0.3",
+  "name": "beautyslider",
+  "version": "1.0.4",
   "license": "MIT",
+  "author": "Pr0gger1",
+  "homepage": "https://github.com/Pr0gger1/beautyslider#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pr0gger1/beautyslider.git"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
   ],
+  "module": "dist/beautyslider.esm.js",
   "engines": {
     "node": ">=10"
   },
@@ -20,9 +28,6 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {
-    "react": ">=16"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -34,9 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "beautyslider",
-  "author": "Pr0gger1",
-  "module": "dist/beautyslider.esm.js",
   "size-limit": [
     {
       "path": "dist/beautyslider.cjs.production.min.js",
@@ -47,6 +49,9 @@
       "limit": "10 KB"
     }
   ],
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.2",
     "@types/react": "^18.0.26",
@@ -59,7 +64,6 @@
     "size-limit": "^8.1.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
-    "typescript": "^4.9.4",
-    "typescript-plugin-css-modules": "^4.1.1"
+    "typescript": "^4.9.4"
   }
 }

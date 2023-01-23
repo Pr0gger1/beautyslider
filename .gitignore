@@ -1,6 +1,11 @@
+# IDE settings
 .idea
+.vscode
+# log files
 *.log
-.DS_Store
+# dependency folder
 node_modules
+# cache files
 .cache
+# build folder
 dist
